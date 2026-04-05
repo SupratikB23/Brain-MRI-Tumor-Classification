@@ -130,3 +130,16 @@ SVM with RBF kernel tuned via **5-fold stratified cross-validation**.
 | `report.txt` | This approach report |
 
 ---
+
+## Repository Structure
+```
+Brain MRI Tumor Classification
+├── NOTICE
+├── report.txt 
+├── README.md 
+├── LICENSE
+├── submission.csv  
+└── brain-mri-tumor-classification.ipynb
+```
+
+---
