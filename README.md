@@ -23,7 +23,7 @@ Classify brain MRI scans into **one of four categories** using classical machine
 | Training images | **2,007** (across 4 classes) |
 | Test images | **863** (unlabeled, flat folder) |
 | Format | Grayscale PNG / JPG, varying resolutions |
-| Class balance | ~70% tumor classes · ~30% no_tumor |
+| Class balance | ~70% tumor classes, ~30% no_tumor |
 
 > **Imbalanced dataset** - tumor classes make up ~70% of training data, with varying distribution across glioma, meningioma, and pituitary types. Labels are embedded directly in filenames (e.g. `00001_image(45)_glioma_tumor.png`).
 
@@ -71,7 +71,7 @@ Horizontal flips were applied to **training images only** (not validation), doub
 |---|---|
 | Original train split | 1,605 |
 | After horizontal flip | 3,210 |
-| Final (all 2,007 + 2,007 flipped) | **4,014 samples** |
+| **Final (all 2,007 + 2,007 flipped)** | **4,014 samples** |
 
 ### Step 5 - Dimensionality Reduction: PCA
 
