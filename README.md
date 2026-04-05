@@ -120,26 +120,15 @@ SVM with RBF kernel tuned via **5-fold stratified cross-validation**.
 
 ---
 
-## Deliverables
-
-| File | Description |
-|---|---|
-| `brain-mri-tumor-classification.ipynb` | Full notebook - preprocessing, feature extraction, training, and evaluation |
-| `brain_mri_model.joblib` | Serialized trained pipeline (scaler + PCA + SVM) |
-| `submission.csv` | 863-row prediction file with `image_id` and `label` columns |
-| `report.txt` | This approach report |
-
----
-
 ## Repository Structure
 ```
 Brain MRI Tumor Classification
 ├── NOTICE
-├── report.txt 
+├── LICENSE 
 ├── README.md 
-├── LICENSE
-├── submission.csv  
-└── brain-mri-tumor-classification.ipynb
+├── report.txt                              -> Whole Approach Report
+├── submission.csv                          -> 863-row prediction file with `image_id` and `label` columns
+└── brain-mri-tumor-classification.ipynb    -> Full notebook - preprocessing, feature extraction, training, and evaluation
 ```
 
 ---
