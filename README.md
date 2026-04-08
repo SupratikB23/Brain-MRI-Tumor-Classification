@@ -5,7 +5,9 @@
 
 ## Objective
 
-Classify brain MRI scans into **one of four categories** using classical machine learning  (without any deep learning or pre-trained models)
+Classify brain MRI scans into **one of four categories** using classical machine learning  (without any deep learning or pre-trained models) <br>
+
+**Brain Tumor** — [Kaggle Hackathon Link](https://www.kaggle.com/competitions/datasprint)
 
 | Class | Description |
 |---|---|
